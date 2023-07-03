@@ -1,0 +1,10 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+#          auth-service url
+          issuer-uri: http://localhost:9999
+
+server:
+  port: 8073
